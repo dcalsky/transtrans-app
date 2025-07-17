@@ -1,0 +1,106 @@
+{
+  "expo": {
+    "name": "transtrans",
+    "slug": "transtrans",
+    "displayName": "Trans Trans",
+    "version": "1.3.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "transtrans",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "locales": {
+      "ja": "./languages/japanese.json",
+      "en": "./languages/english.json",
+      "zh-Hans": "./languages/chinese.json"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "usesAppleSignIn": true,
+      "bundleIdentifier": "app.transtrans.transtrans",
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true,
+        "CFBundleDisplayName": "Trans Trans"
+      },
+      "appleTeamId": "M37XHKA8QX",
+      "buildNumber": "2"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ],
+      "package": "app.transtrans.transtrans"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-apple-authentication",
+      "expo-localization",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash.png",
+          "imageWidth": 365,
+          "resizeMode": "contain",
+          "backgroundColor": "#fbe1e8"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/SpaceMono-Regular.ttf"
+          ]
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "To enhance your experience, Trans Trans requires access to your microphone. This enables seamless recording of audio notes, which are then automatically transcribed into text."
+        }
+      ],
+      "expo-asset",
+      "expo-localization",
+      "expo-secure-store",
+      [
+        "expo-sqlite",
+        {
+          "enableFTS": true,
+          "useSQLCipher": true,
+          "android": {
+            "enableFTS": false,
+            "useSQLCipher": false
+          },
+          "ios": {
+            "customBuildFlags": [
+              "-DSQLITE_ENABLE_DBSTAT_VTAB=1 -DSQLITE_ENABLE_SNAPSHOT=1"
+            ]
+          }
+        }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "organization": "offjuan",
+          "project": "transtrans",
+          "url": "https://sentry.io/"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6c764c55-d0bd-43ca-b593-cc0e9eaa14df"
+      }
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "Hello": "Hello",
+  "ToastGreeting": "Hello, there!",
+  "common": {
+    "search": "Search",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "copy": "Copy",
+    "save": "Save",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info",
+    "language": "Language"
+  },
+  "home": {
+    "search": "Search",
+    "deleteNote": "Delete note",
+    "deleteNoteConfirm": "Are you sure to delete this note?",
+    "deleteSuccess": "Delete note success",
+    "deleteFailed": "Delete note failed",
+    "copyText": "Copy Text",
+    "textCopied": "Copied text",
+    "noPostsYet": "No notes yet",
+    "createFirstNote": "Create your first voice summary note by tapping the + button below",
+    "createNote": "Create Note",
+    "fetchPostsFailed": "Fetch posts failed"
+  },
+  "login": {
+    "transYourThoughts": "your thoughts",
+    "termsAgreement": "By signing up, you agree to our terms and ",
+    "privacyPolicy": "privacy policy",
+    "loginSuccess": "Login success",
+    "loginFailed": "Login failed, please retry",
+    "loginCanceled": "It seems you have canceled the sign-in"
+  },
+  "posts": {
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "title": "Title",
+    "content": "Content",
+    "microphonePermission": "Microphone permission",
+    "microphonePermissionMessage": "Please allow microphone access to start recording.",
+    "savePostFailed": "Save note failed",
+    "audioFileNotExists": "Audio file not exists in local.",
+    "deletePost": "Delete Note",
+    "deletePostConfirm": "Are you sure you want to delete this note ?",
+    "deleteSuccess": "Note deleted successfully",
+    "audioAttachments": "Audio Attachments",
+    "goToSettings": "Go to Settings",
+    "seconds": "s",
+    "playAudioFailed": "Play audio failed, please retry.",
+    "editPost": "Edit Note",
+    "newPost": "New Note",
+    "editingMessage": "You're editing an existing note . Any new recordings will be added to this note.",
+    "textMode": "Text Mode",
+    "textModeDesc": "How to add text",
+    "speakingLanguage": "Speaking Language",
+    "speakingLanguageDesc": "Your mainly speaking language",
+    "transcribingMode": "Transcribing Mode",
+    "transcribingModeDesc": "How to transcribe your voice",
+    "releaseToCancel": "Release to Cancel",
+    "releaseToFinish": "Release to Finish",
+    "writeTitlePrompt": "Write a title for the new note",
+    "done": "Done",
+    "postNotFound": "Note not found",
+    "copy": "Copy",
+    "textModeOptions": {
+      "append": "Append",
+      "override": "Override"
+    },
+    "textModeDescriptions": {
+      "append": "Append new text to following",
+      "override": "Override all text"
+    },
+    "transcribingModeOptions": {
+      "slight": "Slight Summary",
+      "original": "Original"
+    },
+    "transcribingModeDescriptions": {
+      "slight": "Slight summary of what you said",
+      "original": "Total transcription of what you said"
+    },
+    "noteTitlePlaceholder": "Note Title",
+    "textContentPlaceholder": "Trancribed Text...",
+    "recordingTooShort": "Recording too short",
+    "recordingTooShortMessage": "Please record at least 2 seconds",
+    "recordingCanceled": "Recording canceled",
+    "saveAudioFileFailed": "Save audio file failed, please retry.",
+    "logout": "Logout",
+    "login": "Login",
+    "quitTitle": "Quit Editing?",
+    "quitMessage": "Your changes will be lost. Are you sure you want to quit?",
+    "updateFailed": "Update note failed, please retry",
+    "updateOk": "Note updated successfully",
+    "playOrPauseTranscribeTaskMenuItem": "Play/Pause",
+    "deleteTranscribeTaskMenuItem": "Delete",
+    "deleteTranscribeTask": "Delete Audio?",
+    "deleteTranscribeTaskConfirm": "Are you sure to delete this audio?",
+    "creditRefreshText": "Free credits will reset at UTC 00:00 AM",
+    "unlimiteCreditText": "Pro users have unlimited credits",
+    "audioPlaybackError": "Play audio failed, please retry",
+    "save": "Save",
+    "draftLoaded": "Draft loaded",
+    "draftSaved": "Draft saved"
+  },
+  "alerts": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "quit": "Quit"
+  },
+  "settings": {
+    "title": "Settings",
+    "preferences": "Preferences",
+    "language": "Language",
+    "theme": "Theme",
+    "about": "About",
+    "version": "Version",
+    "logout": "Logout",
+    "login": "Login",
+    "support": "Support",
+    "share": "Share App",
+    "userAgreement": "User Agreement",
+    "privacyPolicy": "Privacy Policy",
+    "shareTitle": "Trans Trans",
+    "shareMessage": "Check out Trans Trans, a decent app for transcribing and translating your thoughts! https://transtrans.app",
+    "shareDialogTitle": "Share Trans Trans with friends",
+    "shareError": "There was an error sharing the app. Please try again later.",
+    "unlockPro": "Unlock Pro",
+    "unlockProDesc": "Get unlimited credits and more!",
+    "remainCredit": "Remain Credit",
+    "userLicense": "User License",
+    "logoutAlertContent": "Are you sure to sign out?",
+    "deleteAccountAlertTitle": "Are you sure to delete current account?",
+    "deleteAccountAlertContent": "Your notes and every files in the Trans Trans will be deleted and can't recovery ever",
+    "deleteAccount": "Delete Account",
+    "rate": "Rate Us"
+  },
+  "tabs": {
+    "home": "Home",
+    "settings": "Settings"
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "More Than Voice to Text",
+      "text": "Turning your speech into text, while cleaning up all mumbles and unnecessary filler words!"
+    },
+    "features": {
+      "title": "Super Secure Local Storage",
+      "text": "The author really dislikes how other apps default to uploading private diaries to the cloud."
+    },
+    "start": {
+      "title": "Why Stick to 3 Pages?",
+      "text": "Right now, I've only got two pages worth of features to show off..."
+    },
+    "getStarted": "Get Started"
+  },
+  "subscription": {
+    "acknowlegement": "The subscription will be charged to your App Store account at confirmation of purchase. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Your account will be charged for renewal within 24-hours prior to the end of the current period. You can manage your subscription in account settings on App Store. By subscribing, you agree to our privacy policy and terms of use."
+  }
+}

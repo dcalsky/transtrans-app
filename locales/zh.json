@@ -1,0 +1,167 @@
+{
+  "Hello": "你好",
+  "ToastGreeting": "你好！",
+  "common": {
+    "search": "搜索",
+    "cancel": "取消",
+    "delete": "删除",
+    "copy": "复制",
+    "save": "保存",
+    "edit": "编辑",
+    "create": "创建",
+    "update": "更新",
+    "loading": "加载中...",
+    "success": "成功",
+    "error": "错误",
+    "warning": "警告",
+    "info": "信息",
+    "language": "语言"
+  },
+  "home": {
+    "search": "搜索",
+    "deleteNote": "删除笔记",
+    "deleteNoteConfirm": "确定要删除这个笔记吗？",
+    "deleteSuccess": "删除笔记成功",
+    "deleteFailed": "删除笔记失败",
+    "copyText": "复制文本",
+    "textCopied": "已复制文本",
+    "noPostsYet": "还没有笔记",
+    "createFirstNote": "点击下方的 + 按钮创建你的第一个语音总结笔记",
+    "createNote": "创建笔记",
+    "fetchPostsFailed": "获取笔记失败"
+  },
+  "login": {
+    "transYourThoughts": "你的想法",
+    "termsAgreement": "注册即表示您同意我们的条款和 ",
+    "privacyPolicy": "隐私政策",
+    "loginSuccess": "登录成功",
+    "loginFailed": "登录失败，请重试",
+    "loginCanceled": "您似乎已取消登录"
+  },
+  "posts": {
+    "create": "创建",
+    "edit": "编辑",
+    "delete": "删除",
+    "title": "标题",
+    "content": "内容",
+    "microphonePermission": "麦克风权限",
+    "microphonePermissionMessage": "请允许访问麦克风以开始录音。",
+    "savePostFailed": "保存笔记失败",
+    "audioFileNotExists": "本地不存在音频文件。",
+    "deletePost": "删除笔记",
+    "deletePostConfirm": "确定要删除这个笔记吗？",
+    "deleteSuccess": "笔记删除成功",
+    "audioAttachments": "音频附件",
+    "goToSettings": "前往设置",
+    "seconds": "秒",
+    "playAudioFailed": "播放音频失败，请重试。",
+    "editPost": "编辑笔记",
+    "newPost": "新建笔记",
+    "editingMessage": "您正在编辑一篇已有笔记",
+    "textMode": "文本模式",
+    "textModeDesc": "如何新增文本",
+    "speakingLanguage": "语言",
+    "speakingLanguageDesc": "讲话的语言",
+    "transcribingMode": "转录模式",
+    "transcribingModeDesc": "如何转录您的语音",
+    "releaseToCancel": "松手取消录制",
+    "releaseToFinish": "松手完成录制",
+    "writeTitlePrompt": "为新笔记写一个标题",
+    "done": "完成",
+    "postNotFound": "未找到笔记",
+    "copy": "复制",
+    "textModeOptions": {
+      "append": "追加",
+      "override": "覆盖"
+    },
+    "textModeDescriptions": {
+      "append": "追加新文本到最后面",
+      "override": "覆盖所有文本"
+    },
+    "transcribingModeOptions": {
+      "slight": "轻微总结",
+      "original": "原始"
+    },
+    "transcribingModeDescriptions": {
+      "slight": "简单总结你所说的话",
+      "original": "一字不差地转录你所说的话"
+    },
+    "noteTitlePlaceholder": "笔记标题",
+    "textContentPlaceholder": "转录后的文本...",
+    "recordingTooShort": "录音时间太短",
+    "recordingTooShortMessage": "至少录音2秒",
+    "recordingCanceled": "录音已取消",
+    "saveAudioFileFailed": "保存音频文件失败，请重试。",
+    "logout": "退出",
+    "login": "登录",
+    "quitTitle": "退出编辑？",
+    "quitMessage": "您的更改将会丢失。确定要退出吗？",
+    "updateFailed": "笔记更新失败，请重试",
+    "updateOk": "笔记更新成功",
+    "playOrPauseTranscribeTaskMenuItem": "播放/暂停",
+    "deleteTranscribeTaskMenuItem": "删除",
+    "deleteTranscribeTask": "删除录音?",
+    "deleteTranscribeTaskConfirm": "确定要删除这份录音文件吗？",
+    "creditRefreshText": "免费积分会在UTC 0时重置",
+    "unlimiteCreditText": "Pro 用户拥有无限积分",
+    "audioPlaybackError": "播放失败，请重试",
+    "save": "保存",
+    "draftLoaded": "已加载草稿",
+    "draftSaved": "草稿已保存"
+  },
+  "alerts": {
+    "confirm": "确认",
+    "cancel": "取消",
+    "delete": "删除",
+    "quit": "退出"
+  },
+  "settings": {
+    "title": "设置",
+    "preferences": "偏好设置",
+    "language": "语言",
+    "theme": "主题",
+    "about": "关于",
+    "version": "版本",
+    "logout": "退出",
+    "login": "登录",
+    "support": "支持",
+    "share": "分享应用",
+    "userAgreement": "用户协议",
+    "privacyPolicy": "隐私政策",
+    "shareTitle": "Trans Trans 应用",
+    "shareMessage": "尝试一下 Trans Trans，它是一款不错的语音转录和翻译应用！https://transtrans.app",
+    "shareDialogTitle": "与朋友分享 TransTrans",
+    "shareError": "分享应用时出错。请稍后再试。",
+    "unlockPro": "解锁 Pro",
+    "unlockProDesc": "获取无限积分和更多功能！",
+    "remainCredit": "剩余积分",
+    "userLicense": "用户协议",
+    "deleteAccount": "删除账号",
+    "deleteAccountAlertContent": "你在TransTrans中的所有笔记和媒体文件将被永久删除而无法复原",
+    "deleteAccountAlertTitle": "你确定删除当前账号吗？",
+    "logoutAlertContent": "确定要退出登录吗？",
+    "rate": "点赞"
+  },
+  "tabs": {
+    "home": "首页",
+    "settings": "设置"
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "不只是语音转文本",
+      "text": "同时去掉你那含糊不清的表述，以及非常多余的口水词！"
+    },
+    "features": {
+      "title": "超安全的本地存储",
+      "text": "作者非常讨厌很多APP默认把私密日记上传到云端。"
+    },
+    "start": {
+      "title": "谁说功能一定要介绍三页",
+      "text": "眼前能拿得出手的功能只够两页，躺了..."
+    },
+    "getStarted": "开始使用"
+  },
+  "subscription": {
+    "acknowlegement": "您可以按月订阅会员服务，享受最完整的使用体验，并为后续的研发工作提供支持。费用将从您的 App Store 账户中扣除，并在当前订阅结束前24小时自动续费。您可以摘购买后随时在 App Store 账户设置中关闭自动续费功能。\n订阅会员即表示您接收我们的隐私政策和使用条款。"
+  }
+}

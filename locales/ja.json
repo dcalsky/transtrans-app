@@ -1,0 +1,167 @@
+{
+  "Hello": "こんにちは",
+  "ToastGreeting": "こんにちは！",
+  "common": {
+    "search": "検索",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "copy": "コピー",
+    "save": "保存",
+    "edit": "編集",
+    "create": "作成",
+    "update": "更新",
+    "loading": "読み込み中...",
+    "success": "成功",
+    "error": "エラー",
+    "warning": "警告",
+    "info": "情報",
+    "language": "言語"
+  },
+  "home": {
+    "search": "検索",
+    "deleteNote": "ノートを削除",
+    "deleteNoteConfirm": "このノートを削除してもよろしいですか？",
+    "deleteSuccess": "投稿の削除に成功しました",
+    "deleteFailed": "投稿の削除に失敗しました",
+    "copyText": "テキストをコピー",
+    "textCopied": "テキストをコピーしました",
+    "noPostsYet": "ノートがありません",
+    "createFirstNote": "下の + ボタンをタップして最初のノートを作成してください",
+    "createNote": "ノートを作成",
+    "fetchPostsFailed": "ノートの取得に失敗しました"
+  },
+  "login": {
+    "transYourThoughts": "あなたの考え",
+    "termsAgreement": "サインアップすることで、当社の利用規約と ",
+    "privacyPolicy": "プライバシーポリシー",
+    "loginSuccess": "ログイン成功",
+    "loginFailed": "ログインに失敗しました。再試行してください",
+    "loginCanceled": "サインインをキャンセルしたようです"
+  },
+  "posts": {
+    "create": "作成",
+    "edit": "編集",
+    "delete": "削除",
+    "title": "タイトル",
+    "content": "内容",
+    "microphonePermission": "マイクの許可",
+    "microphonePermissionMessage": "録音を開始するには、マイクへのアクセスを許可してください。",
+    "savePostFailed": "投稿の保存に失敗しました",
+    "audioFileNotExists": "オーディオファイルがローカルに存在しません。",
+    "deletePost": "投稿を削除",
+    "deletePostConfirm": "この投稿を削除してもよろしいですか？",
+    "deleteSuccess": "投稿が正常に削除されました",
+    "audioAttachments": "音声添付ファイル",
+    "goToSettings": "設定に移動",
+    "seconds": "秒",
+    "playAudioFailed": "音声の再生に失敗しました。もう一度お試しください。",
+    "editPost": "投稿を編集",
+    "newPost": "新規投稿",
+    "editingMessage": "既存の投稿を編集しています。新しい録音はこの投稿に追加されます。",
+    "textMode": "テキストモード",
+    "textModeDesc": "新しいテキストをどのように追加するか",
+    "speakingLanguage": "話す言語",
+    "speakingLanguageDesc": "あなたが主に話す言語",
+    "transcribingMode": "文字起こしモード",
+    "transcribingModeDesc": "音声をどのように文字起こしするか",
+    "releaseToCancel": "離してキャンセル",
+    "releaseToFinish": "離して完了",
+    "writeTitlePrompt": "新しいノートのタイトルを入力してください",
+    "done": "完了",
+    "postNotFound": "投稿が見つかりません",
+    "copy": "コピー",
+    "textModeOptions": {
+      "append": "追加",
+      "override": "上書き"
+    },
+    "textModeDescriptions": {
+      "append": "新しいテキストを後ろに追加",
+      "override": "すべてのテキストを上書き"
+    },
+    "transcribingModeOptions": {
+      "slight": "軽くまとめる",
+      "original": "オリジナル"
+    },
+    "transcribingModeDescriptions": {
+      "slight": "あなたが言ったことの簡単な要約",
+      "original": "あなたが言ったことの完全な文字起こし"
+    },
+    "noteTitlePlaceholder": "ノートのタイトル",
+    "textContentPlaceholder": "文字起こし後のテキスト...",
+    "recordingTooShort": "録音が短すぎます",
+    "recordingTooShortMessage": "少なくとも2秒録音してください",
+    "recordingCanceled": "録音がキャンセルされました",
+    "saveAudioFileFailed": "音声ファイルの保存に失敗しました。もう一度お試しください。",
+    "logout": "ログアウト",
+    "login": "ログイン",
+    "quitTitle": "編集を終了しますか？",
+    "quitMessage": "変更内容は失われます。終了してもよろしいですか？",
+    "updateFailed": "ノートの更新に失敗しました，もう一度お試しください",
+    "updateOk": "ノートの更新が成功しました",
+    "playOrPauseTranscribeTaskMenuItem": "再生/一時停止",
+    "deleteTranscribeTaskMenuItem": "削除",
+    "deleteTranscribeTask": "録音を削除しますか？",
+    "deleteTranscribeTaskConfirm": "この録音ファイルを削除してもよろしいですか？",
+    "creditRefreshText": "無料ポイントはUTC 0時にリセットされます",
+    "unlimiteCreditText": "プロユーザーは無制限のポイントを持っています",
+    "audioPlaybackError": "音声の再生に失敗しました、もう一度お試しください。",
+    "save": "保存",
+    "draftLoaded": "下書きを読み込みました",
+    "draftSaved": "下書きを保存しました"
+  },
+  "alerts": {
+    "confirm": "確認",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "quit": "終了"
+  },
+  "settings": {
+    "title": "設定",
+    "preferences": "環境設定",
+    "language": "言語",
+    "theme": "テーマ",
+    "about": "アプリについて",
+    "version": "バージョン",
+    "logout": "ログアウト",
+    "login": "ログイン",
+    "support": "サポート",
+    "share": "アプリを共有",
+    "userAgreement": "利用規約",
+    "privacyPolicy": "プライバシーポリシー",
+    "shareTitle": "TransTrans アプリ",
+    "shareMessage": "TransTransをチェックしてみてください。思考を文字起こしして翻訳する素晴らしいアプリです！https://transtrans.app",
+    "shareDialogTitle": "TransTransを友達と共有",
+    "shareError": "アプリの共有中にエラーが発生しました。後でもう一度お試しください。",
+    "unlockPro": "プロ版を解除",
+    "unlockProDesc": "無制限のポイントとその他の機能を手に入れよう！",
+    "remainCredit": "残高",
+    "userLicense": "利用規約",
+    "deleteAccount": "アカウントを削除",
+    "deleteAccountAlertContent": "メモとすべてのファイルが削除され、復元できなくなります",
+    "deleteAccountAlertTitle": "現在のアカウントを削除してもよろしいですか？",
+    "logoutAlertContent": "ログアウトしてもよろしいですか？",
+    "rate": "高評価"
+  },
+  "tabs": {
+    "home": "ホーム",
+    "settings": "設定"
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "ただの音声テキスト変換じゃないよ",
+      "text": "音声をテキストに変換しつつ、あの曖昧な言い回しや余計な言葉もスッキリ整理しちゃうよ！"
+    },
+    "features": {
+      "title": "超安全なローカルストレージ",
+      "text": "作者は他のアプリがデフォルトでプライベートな日記をクラウドにアップロードするのが大嫌いです。"
+    },
+    "start": {
+      "title": "なぜ3ページにこだわるの？",
+      "text": "今のところ、自慢できるのは2ページ分の機能だけなんです…"
+    },
+    "getStarted": "始める"
+  },
+  "subscription": {
+    "acknowlegement": "サブスクリプションは購入確認時にApp Storeアカウントに請求されます。現在の期間が終了する少なくとも24時間前に自動更新をオフにしない限り、サブスクリプションは自動的に更新されます。現在の期間が終了する24時間以内に、アカウントに更新料金が請求されます。App Storeのアカウント設定でサブスクリプションを管理できます。サブスクリプションに登録することで、当社のプライバシーポリシーと利用規約に同意したことになります。"
+  }
+}
